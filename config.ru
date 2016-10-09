@@ -1,3 +1,4 @@
+#\ -p 8000
 class RackHack
   def call(env)
     [200, {"Content-Type" => "text/html"}, ["<h2>Hello #{wish(env)}"]]
